@@ -1,0 +1,926 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Appik Project</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- icon ban quyen -->
+    <link href="assets/css/fontawesome.pro.6.0.0.css" rel="stylesheet" />
+    <!-- File style.css là file tự code, luôn nằm dưới cùng -->
+</head>
+<body>
+    <!-- class của bootstrap đứng đầu tiên trong class những class tự code để phía sau -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top main-menu">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="images/logos/logo_light.png" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#overview">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#blog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Post</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="home" class="container">
+            <section class="banner">
+                <div class="box">
+                    <div class="col-left">
+                        <h2>
+                            Buy Appik for showcase your app wonderful.
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                        </p>
+                        <div class="button-group">
+                            <a class="btn btn-light" href="#">
+                                <i class="fa-brands fa-apple"></i>
+                                App Store
+                            </a>
+                            <a class="btn btn-light" href="#">
+                                <i class="fa-brands fa-google-play"></i>
+                                Play Store
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-right">
+                        <img src="images/content/mockup-top.png" />
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- Thẻ main dành cho phần nội dung -->
+    <main>
+        <section id="features">
+            <div class="container">
+                <div class="heading-main">
+                    <small>
+                        Awesome things
+                    </small>
+                    <h2>Advanced Features & Functions</h2>
+                </div>
+                <!--.row>.col-lg-4*3-->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-mobile-notch"></i>
+                            </div>
+                            <div class="info">
+                                <strong>Easy to Use</strong>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum, nunc ut hendrerit tempus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-regular fa-user-shield"></i>
+                            </div>
+                            <div class="info">
+                                <strong>Modern Design</strong>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum, nunc ut hendrerit tempus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-sharp fa-regular fa-address-card"></i>
+                            </div>
+                            <div class="info">
+                                <strong>Powerful Options</strong>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum, nunc ut hendrerit tempus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="overview">
+            <div class="container">
+                <div class="heading-main">
+                    <h2>Appik for everybody.</h2>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                    </small>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img class="w-75 m-auto d-block" src="images/content/home1.png" />
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="heading-main align-left mt-5">
+                            <h2><strong>Appik</strong> Makes Everything Better.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <div class="button-group">
+                                <a class="btn btn-light" href="#">
+                                    <i class="fa-brands fa-apple"></i>
+                                    App Store
+                                </a>
+                                <a class="btn btn-light" href="#">
+                                    <i class="fa-brands fa-google-play"></i>
+                                    Play Store
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 ">
+                        <div class="heading-main align-left mt-5">
+                            <h2>Everyone loves Appik.</h2>
+                            <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Both iOS and Android should be covered
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Feedback and contact means
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Personalization options & Regular updates
+                            </li>
+                        </ul>
+                        <div class="mt-5">
+                            <a class="btn-linear-gradient" href="#">Discover More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <img class="w-75 m-auto d-block" src="images/content/home2.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="watch-video">
+            <div class="bg-img">
+                <h2>Wacth Video</h2>
+                <div class="icon-box">
+                    <div class="rounded-box">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="review">
+            <div class="container">
+                <div class="heading-main">
+                    <small>Testmonials</small>
+                    <h2>Great user reviews</h2>
+                </div>
+                <div class="testmonials">
+                    <div id="carousel-review" class="carousel slide"
+                         data-bs-ride="carousel" data-bs-keyboard="true" data-bs-pause="false" data-bs-interval="3000">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-review" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                            <button type="button" data-bs-target="#carousel-review" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel-review" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <div class="item-box">
+                                                <img class="avatar" src="images/blog/user-1.png" />
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-sharp-half-stroke"></i>
+                                                </div>
+                                                <div class="title">
+                                                    for <strong>Features Avaliability</strong>
+                                                </div>
+                                                <div class="description">
+                                                    Care through where harold knew all of he scarce to as alone care was fabled objects were friends beyond of sad light tear for in when start and him but
+                                                </div>
+                                                <div class="author">
+                                                    <strong>Jonh Doe</strong> - Envator User
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <div class="item-box">
+                                                <img class="avatar" src="images/blog/user-2.png" />
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </div>
+                                                <div class="title">
+                                                    for <strong>Powerful Options</strong>
+                                                </div>
+                                                <div class="description">
+                                                    Care through where harold knew all of he scarce to as alone care was fabled objects were friends beyond of sad light tear for in when start and him but
+                                                </div>
+                                                <div class="author">
+                                                    <strong>Henry</strong> - Appik User
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <div class="item-box">
+                                                <img class="avatar" src="images/blog/user-1.png" />
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-sharp-half-stroke"></i>
+                                                </div>
+                                                <div class="title">
+                                                    for <strong>Features Avaliability</strong>
+                                                </div>
+                                                <div class="description">
+                                                    Care through where harold knew all of he scarce to as alone care was fabled objects were friends beyond of sad light tear for in when start and him but
+                                                </div>
+                                                <div class="author">
+                                                    <strong>Jonh Doe</strong> - Envator User
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <div class="item-box">
+                                                <img class="avatar" src="images/blog/user-1.png" />
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-sharp-half-stroke"></i>
+                                                </div>
+                                                <div class="title">
+                                                    for <strong>Powerful Options</strong>
+                                                </div>
+                                                <div class="description">
+                                                    Care through where harold knew all of he scarce to as alone care was fabled objects were friends beyond of sad light tear for in when start and him but
+                                                </div>
+                                                <div class="author">
+                                                    <strong>Henry</strong> - Appik User
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <div class="item-box">
+                                                <img class="avatar" src="images/blog/user-1.png" />
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-sharp-half-stroke"></i>
+                                                </div>
+                                                <div class="title">
+                                                    for <strong>Features Avaliability</strong>
+                                                </div>
+                                                <div class="description">
+                                                    Care through where harold knew all of he scarce to as alone care was fabled objects were friends beyond of sad light tear for in when start and him but
+                                                </div>
+                                                <div class="author">
+                                                    <strong>Jonh Doe</strong> - Envator User
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <div class="item-box">
+                                                <img class="avatar" src="images/blog/user-2.png" />
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-sharp-half-stroke"></i>
+                                                </div>
+                                                <div class="title">
+                                                    for <strong>Powerful Options</strong>
+                                                </div>
+                                                <div class="description">
+                                                    Care through where harold knew all of he scarce to as alone care was fabled objects were friends beyond of sad light tear for in when start and him but
+                                                </div>
+                                                <div class="author">
+                                                    <strong>Henry</strong> - Appik User
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="landing-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="images/content/home3.png" />
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="heading-main align-left">
+                            <h2>
+                                Appik Landing Page For Your App
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</small>
+                        </div>
+                        <div class="mt-5">
+                            <a class="btn-linear-gradient" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="summary">
+            <div class="linear-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                            <div class="number">
+                                <span class="value">9800</span>
+                                <span class="plus">+</span>
+                            </div>
+                            <div class="title">
+                                App Downloads
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="number">
+                                <span class="value">5200</span>
+                                <span class="plus">+</span>
+                            </div>
+                            <div class="title">
+                                Active Accounts
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="number">
+                                <span class="value">4600</span>
+                                <span class="plus">+</span>
+                            </div>
+                            <div class="title">
+                                Happy Users
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="number">
+                                <span class="value">1700</span>
+                                <span class="plus">+</span>
+                            </div>
+                            <div class="title">
+                                Ratings
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="appshoots">
+            <div class="container">
+                <div class="heading-main mb-5">
+                    <h2>App Screenshoots</h2>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                    </small>
+                </div>
+                <!--.row>(.col-12.col-lg-4)*3-->
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="item">
+                            <div class="item-detail">
+                                <div class="col-left">
+                                    <strong>Creative Design</strong>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum, nunc ut hendrerit tempus.
+                                    </p>
+                                </div>
+                                <div class="col-right">
+                                    <i class="fa-regular fa-mobile-signal-out"></i>
+                                </div>
+                            </div>
+                            <div class="item-detail">
+                                <div class="col-left">
+                                    <strong>Finance Advisor</strong>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit vivamus.
+                                    </p>
+                                </div>
+                                <div class="col-right">
+                                    <i class="fa-regular fa-mobile-signal"></i>
+                                </div>
+                            </div>
+                            <div class="item-detail">
+                                <div class="col-left">
+                                    <strong>Creative Design</strong>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum, nunc ut hendrerit tempus.
+                                    </p>
+                                </div>
+                                <div class="col-right">
+                                    <i class="fa-regular fa-mobile"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img class="avatar" src="images/content/homeapp.png" />
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="item">
+                            <div class="flex-row-reverse item-detail">
+                                <div class="text-start col-left">
+                                    <strong>Creative Design</strong>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum, nunc ut hendrerit tempus.
+                                    </p>
+                                </div>
+                                <div class="col-right">
+                                    <i class="fa-regular fa-mobile-signal-out"></i>
+                                </div>
+                            </div>
+                            <div class="flex-row-reverse item-detail">
+                                <div class="text-start col-left">
+                                    <strong>Finance Advisor</strong>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit vivamus.
+                                    </p>
+                                </div>
+                                <div class="col-right">
+                                    <i class="fa-regular fa-mobile-signal"></i>
+                                </div>
+                            </div>
+                            <div class="flex-row-reverse item-detail">
+                                <div class="text-start col-left">
+                                    <strong>Creative Design</strong>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum, nunc ut hendrerit tempus.
+                                    </p>
+                                </div>
+                                <div class="col-right">
+                                    <i class="fa-regular fa-mobile"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="screenshoots">
+            <div class="container">
+                <div class="heading-main">
+                    <h2>App Screenshoots</h2>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                    </small>
+                </div>
+                <div>
+                    <div id="screenshoot-carousel" class="carousel slide"
+                         data-bs-ride="carousel"
+                         data-bs-keyboard="true"
+                         data-bs-pause="false" data-bs-interval="3000">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#screenshoot-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#screenshoot-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#screenshoot-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img src="images/screenshots/screenshot-1.png" />
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="images/screenshots/screenshot-2.png" />
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="images/screenshots/screenshot-3.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img src="images/screenshots/screenshot-4.png" />
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="images/screenshots/screenshot-5.png" />
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="images/screenshots/screenshot-6.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#screenshoot-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#screenshoot-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="price-plan">
+            <div class="container">
+                <div class="heading-main">
+                    <small>Pricing</small>
+                    <h2>Pick The Best Plan</h2>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                    </small>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="pricing-card">
+                                <h4>Classic</h4>
+                                <sup>$</sup>
+                                <h3>39</h3>
+                                <span>/ mo</span>
+                                <h5>24/7 support</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Visit to any two days</li>
+                                    <li>Single person entrance allowed</li>
+                                    <li>Unlimited entrance and on two days</li>
+                                    <li>Brunch and Lunch included</li>
+                                    <li>Bus ticket</li>
+                                </ul>
+                                <div class="m-3">
+                                    <a class="btn-linear-gradient" href="#">Get started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="pricing-card">
+                                <h4>Recommended</h4>
+                                <sup>$</sup>
+                                <h3>79</h3>
+                                <span>/ mo</span>
+                                <h5>24/7 support</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Visit to any two days</li>
+                                    <li>Single person entrance allowed</li>
+                                    <li>Unlimited entrance and on two days</li>
+                                    <li>Brunch and Lunch included</li>
+                                    <li>Bus ticket</li>
+                                </ul>
+                                <div class="m-3">
+                                    <a class="btn-linear-gradient" href="#">Get started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="pricing-card">
+                                <h4>Popular</h4>
+                                <sup>$</sup>
+                                <h3>99</h3>
+                                <span>/ mo</span>
+                                <h5>24/7 support</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Visit to any two days</li>
+                                    <li>Single person entrance allowed</li>
+                                    <li>Unlimited entrance and on two days</li>
+                                    <li>Brunch and Lunch included</li>
+                                    <li>Bus ticket</li>
+                                </ul>
+                                <div class="m-3">
+                                    <a class="btn-linear-gradient" href="#">Get started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="our-team">
+            <div class="container">
+                <div class="heading-main">
+                    <h2>Meet Our Team</h2>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                    </small>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="team-box">
+                                <img src="images/content/team-1.jpg" class="card-img-top">
+                                <div class="overlay-our">
+                                    <div class="info-team">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3 card-bottom">
+                                <h4>Johan Smit</h4>
+                                <h6>DESIGNER</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="team-box">
+                                <img src="images/content/team-2.jpg" class="card-img-top">
+                                <div class="overlay-our">
+                                    <div class="info-team">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3 card-bottom">
+                                <h4>Johan Smit</h4>
+                                <h6>DESIGNER</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="team-box">
+                                <img src="images/content/team-3.jpg" class="card-img-top">
+                                <div class="overlay-our">
+                                    <div class="info-team">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3 card-bottom">
+                                <h4>Johan Smit</h4>
+                                <h6>DESIGNER</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="team-box">
+                                <img src="images/content/team-4.jpg" class="card-img-top">
+                                <div class="overlay-our">
+                                    <div class="info-team">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3 card-bottom">
+                                <h4>Johan Smit</h4>
+                                <h6>DESIGNER</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="latest-news">
+            <div class="container">
+                <div class="heading-main">
+                    <h2>Latest News</h2>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                    </small>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="images/content/blog/b1.jpg" class="card-img-top">
+                            <div class="card-box">
+                                <h4>Darknet is rolling out a free service to pair users</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href=""><i class="fa fa-users"></i></a> Admin
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fa fa-pencil"></i></a> Design
+                                    </li>
+                                </ul>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                <div class="m-4">
+                                    <a class="btn-linear-gradient" href="#">Read Articel</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="images/content/blog/b2.jpg" class="card-img-top">
+                            <div class="card-box">
+                                <h4>Darknet is rolling out a free service to pair users</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href=""><i class="fa fa-users"></i></a> Admin
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fa fa-pencil"></i></a> Design
+                                    </li>
+                                </ul>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                <div class="m-4">
+                                    <a class="btn-linear-gradient" href="#">Read Articel</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="images/content/blog/b3.jpg" class="card-img-top">
+                            <div class="card-box">
+                                <h4>Darknet is rolling out a free service to pair users</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href=""><i class="fa fa-users"></i></a> Admin
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fa fa-pencil"></i></a> Design
+                                    </li>
+                                </ul>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                <div class="m-4">
+                                    <a class="btn-linear-gradient" href="#">Read Articel</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Thẻ footer là dành cho phần chân trang -->
+    <footer id="subcribe">
+        <div class="linear-bg">
+            <div class="container">
+                <div class="heading-main">
+                    <h2>Subscribe Newsletter</h2>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                    </small>
+                </div>
+                <div class="row mt-5">
+                    <div class="subcribe-box">
+                        <div class="input-box">
+                            <from>
+                                <input type="email" name="email" placeholder="Enter Your Email adress">
+                                <a class="btn-linear-gradient " href="#">Read Articel</a>
+                            </from>
+                        </div>
+                        <div class="info-sub">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-vk"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright © 2018, Development by SpecThemes</p>
+        </div>
+    </footer>
+    <section id="script">
+        <script src="assets/js/bootstrap.bundle.js"></script>
+        <!-- File scrip.js là file tự code, luôn nằm dưới cùng -->
+        <script src="assets/js/script.js"></script>
+    </section>
+
+</body>
+</html>
